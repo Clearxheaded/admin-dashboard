@@ -17,4 +17,29 @@
     display: grid;
     grid-template-areas: "sidebar header"
         "sidebar main-content";
+    gap: 15px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px solid;
+}
+
+.main-content {
+    display: grid;
+    grid-template-areas: "post-area announcements-area"
+        "post-area trending-area";
+    gap: 15px;
+}
+
+.post-area {
+    grid-area: post-area;
+}
+
+.announcements-area {
+    grid-area: announcements-area;
+}
+
+.trending-area {
+    grid-area: trending-area;
 }
