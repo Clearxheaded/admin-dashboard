@@ -54,7 +54,6 @@
     grid-column: 1 / -1;
     font-size: 1.3rem;
     font-weight: 500;
-    margin-bottom: 10px;
 }
 
 .announcements-area {
@@ -87,3 +86,98 @@
     font-size: 1.8rem;
     margin-bottom: 50px;
 }
+
+.header {
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-area {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 600px;
+}
+
+.search-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+.search-bar {
+    flex: 1;
+    background-color: #e2e8f0;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 1rem;
+}
+
+.search-bar:focus {
+    outline: none;
+    background-color: #d1d8e0;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.notification-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.profile-pic {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.username {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+}
+
+.welcome-area {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-pic-large {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.greeting {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.user-handle {
+    font-size: 1.5rem;
+    font-weight: bold;
