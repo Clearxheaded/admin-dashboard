@@ -46,8 +46,15 @@
 .post-area {
     grid-area: post-area;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project-title {
+    grid-column: 1 / -1;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .announcements-area {
