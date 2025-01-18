@@ -74,6 +74,12 @@
     border-radius: 5px 0 0 5px;
 }
 
+p.title {
+    font-weight: 550;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
 .star-icon,
 .eye-icon,
 .fork-icon {
