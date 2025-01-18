@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
 .sidebar {
-    background-color: aqua;
+    background-color: #1992D4;
     grid-area: sidebar;
+    padding: 20px;
+    width: 250px;
 }
 
 .header {
@@ -34,6 +45,9 @@
 
 .post-area {
     grid-area: post-area;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .announcements-area {
@@ -47,16 +61,22 @@
 .side-content {
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: white;
     cursor: pointer;
     margin-left: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .side-content svg {
-    width: 20px;
-    /* Adjust size of the icons */
-    height: 20px;
-    margin-right: 10px;
-    /* Add space between the icon and text */
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    fill: white;
+}
+
+.side-content:first-child {
+    font-size: 1.8rem;
+    margin-bottom: 50px;
 }
