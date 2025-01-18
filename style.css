@@ -20,7 +20,6 @@
 }
 
 .main-content {
-    background-color: green;
     grid-area: main-content;
 }
 
@@ -28,7 +27,6 @@
     display: grid;
     grid-template-areas: "sidebar header"
         "sidebar main-content";
-    gap: 15px;
 }
 
 .card {
@@ -41,6 +39,7 @@
     grid-template-areas: "post-area announcements-area"
         "post-area trending-area";
     gap: 15px;
+    padding-left: 10px;
 }
 
 .post-area {
